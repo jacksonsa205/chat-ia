@@ -12,15 +12,13 @@
       <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <div class="row">
-      <h1 class="h1">alphasec</h1>
+    <div id="chat-container">
+      <div id="messages"></div>
+      <form id="chat-form">
+        <input id="user-input" type="text" placeholder="Digite sua pergunta..." required />
+        <button type="submit">Enviar</button>
+      </form>
     </div>
-    <div class="row">
-      <div>
-      </div>
-    </div>
-    <div class="row">
-      <span class="text-muted small">alphasec © 2024. All rights reserved.</span>
-    </div>
+  <script src="/js/chat.js"></script>
   </body>
 </html>
